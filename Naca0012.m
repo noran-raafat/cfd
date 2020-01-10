@@ -4,9 +4,9 @@ close all
 tic
 %% airfoil coordinates NACA 0012
 
-filename_density_L = 'C:\Users\dell\Desktop\AERO\CFD\project\book1'; 
-X_airfoil=xlsread(filename_density_L,'S1:S99');
-Y_airfoil=xlsread(filename_density_L,'T1:T99');
+filename_density_L = 'Naca0012'; 
+X_airfoil=xlsread(filename_density_L,'A1:A99');
+Y_airfoil=xlsread(filename_density_L,'B1:B99');
 %% required input
 imax=length(X_airfoil);
 jmax=length(Y_airfoil);
